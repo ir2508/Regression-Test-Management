@@ -1,0 +1,20 @@
+.select-project {
+    margin: 24px 0;
+}
+
+.select-project label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+.select-project select {
+    background-color: #fff;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    padding: 16px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}

@@ -1,0 +1,18 @@
+.header {
+    background-color: #005594;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+
+.header .logo {
+    width: 140px;
+}
+
+.header h2 {
+    text-align: center;
+    color: #FFF;
+    font-size: 32px;
+}

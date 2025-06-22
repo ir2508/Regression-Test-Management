@@ -1,0 +1,11 @@
+.form-case-test {
+    background-color: #F6F6F6;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px #ddd;
+    width: 550px;
+}
+
+.form-case-test h2 {
+    font-size: 24px;
+}
