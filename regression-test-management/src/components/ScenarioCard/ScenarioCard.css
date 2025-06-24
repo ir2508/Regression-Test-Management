@@ -1,0 +1,44 @@
+.scenario-card {
+    position: relative;
+    width: 350px;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.08);
+}
+
+.scenario-card .card-header {
+    background-color: #005594;
+    border-radius: 10px 10px 0 0;
+}
+
+.scenario-card img {
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    bottom: -50px;
+    left: 125px;
+}
+
+.scenario-card .card-body {
+    background-color: #FFF;
+    /* box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08); */
+    padding: 70px 10px 20px 10px;
+}
+
+.scenario-card .card-body div label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.scenario-card .card-footer {
+    background-color: #FFF;
+    border-radius: 0 0 10px 10px;
+    padding: 10px 10px 20px 10px;
+    text-align: center;
+}
+
+.scenario-card .card-footer button {
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    width: auto;
+    background-color: red;
+}

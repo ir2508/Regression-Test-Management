@@ -5,3 +5,17 @@
     box-shadow: 1px 1px 10px #ddd;
     width: 300px;
 }
+
+.msg-success {
+    background-color: rgb(165, 255, 165);
+    padding: 10px;
+    border-radius: 7px;
+    color: darkgreen;
+}
+
+.msg-error {
+    background-color: rgb(255, 183, 183);
+    padding: 10px;
+    border-radius: 7px;
+    color: darkred;
+}

@@ -1,0 +1,15 @@
+.project {
+    background-color: rgba(0, 85, 148, 0.1);
+    padding: 50px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.project h3 {
+    font-size: 24px;
+    color: #444;
+    width: 100%;
+    text-align: center;
+}

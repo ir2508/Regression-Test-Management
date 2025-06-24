@@ -1,10 +1,10 @@
 import './Input.css'
 
-const Input = ({ labelName }) => {
+const Input = ({ labelName, value, onEdited }) => {
     return (
         <div className='input-text'>
             <label>{labelName}</label>
-            <input type='text' placeholder={labelName} required/>
+            <input type='text' onChange={event => onEdited(event.target.value)} value={value} placeholder={labelName} required/>
         </div>
     )
 }

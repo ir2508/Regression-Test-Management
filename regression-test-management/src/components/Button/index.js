@@ -2,7 +2,18 @@ import './Button.css'
 
 const Button = (props) => {
     return (
-        <button className='button'>{props.children}</button>
+        <>
+            <button className='button' onClick={
+                () => {
+                    if(props.buttonAction === "remove") {
+                        props.onRemoveScenario(props.scenarioIdToRemove)
+                    }
+                }
+            }>
+                {props.children}
+            </button>
+        </>
+
     )
 }
 

@@ -1,11 +1,12 @@
 import './SelectProject.css'
 
-const SelectProject = ({ labelName }) => {
+const SelectProject = ({ labelName, projects, onEdited, value }) => {
     return (
         <div className='select-project'>
             <label>{labelName}</label>
-            <select required>
-                <option disabled>Selecione um sistema...</option>
+            <select onChange={event => onEdited(event.target.value)} required>
+                <option selected disabled value="0">Selecione...</option>
+                {projects.map(project => <option key={project} value={project}>{project}</option>)}
             </select>
         </div>
     )
