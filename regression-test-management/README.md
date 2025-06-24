@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Regression Test Management
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Um aplicativo em **React** para criar, gerenciar e remover cenários de teste de regressão.
 
-## Available Scripts
+## Visão geral
 
-In the project directory, you can run:
+Este projeto permite que você:
+- Liste cenários de testes de regressão.
+- Adicione novos cenários com descrição, ID e projeto relacionado.
+- Remova cenários existentes de forma dinâmica.
 
-### `npm start`
+É ideal para equipes que querem centralizar o gerenciamento de seus testes de regressão em uma interface simples.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Recursos
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Adicionar cenários com campos personalizáveis.
+- Listar todos os cenários já cadastrados.
+- Remover cenários com atualização imediata da interface.
+- Uso de `useState` para gerenciamento de estado local.
 
-### `npm test`
+## Tecnologias
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React (functional components + hooks)
+- CSS (estilos básicos ou sua biblioteca de preferência)
 
-### `npm run build`
+## Instalação e execução
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/ir2508/Regression-Test-Management.git
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Instale as dependências:
+    ```bash
+    cd Regression-Test-Management
+    ```bash
+    npm install
 
-### `npm run eject`
+3. Abrindo o projeto:
+    ```bash
+    npm start
+    Acesse no navegador: http://localhost:3000
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
